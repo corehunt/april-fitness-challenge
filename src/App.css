@@ -9,7 +9,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.auth-form-container, .login-form, .register-form {
+.auth-form-container, .login-form, .register-form, .submission-form {
     display: flex;
     flex-direction: column;    
     padding: 1rem 0;
@@ -43,6 +43,7 @@ button{
     border-radius: 10px;
     cursor: pointer;
     color: rgba(19,19,144,1);
+    margin: 5px;
 }
 
 .link-btn {
